@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 20px;
+  }
+  
+  /* Encabezado */
+  h1 {
+    color: #2c3e50;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 0.5rem;
+  }
+  
+  /* Mensajes de notificación */
+  p[style*="color: green"] {
+    font-weight: bold;
+    padding: 10px;
+    background-color: #e6ffe6;
+    border-left: 4px solid #28a745;
+    border-radius: 4px;
+  }
+  
+  /* Contenedor de elementos */
+  div[id*="usuarios"], div[id*="articulos"], div[id*="categorias"], div[id*="comentarios"] {
+    margin-top: 20px;
+  }
+  
+  div[id*="usuarios"] p, div[id*="articulos"] p, div[id*="categorias"] p, div[id*="comentarios"] p {
+    margin: 5px 0;
+  }
+  
+  /* Estilo para los enlaces */
+  a {
+    color: #d31717;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+  }
+  
+  /* Botón de nuevo recurso */
+  .new-resource-link {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #419252;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  
+  .new-resource-link:hover {
+    background-color: #1a252f;
+  }
+  
+  /* Espaciado entre los enlaces adicionales */
+  .extra-links {
+    margin-top: 20px;
+  }
+  
+  .extra-links a {
+    margin-right: 10px;
+  }
+  

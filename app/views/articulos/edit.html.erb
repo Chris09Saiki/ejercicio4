@@ -1,0 +1,12 @@
+<% content_for :title, "Editing articulo" %>
+
+<h1>Editar articulo</h1>
+
+<%= render "form", articulo: @articulo %>
+
+<br>
+
+<div>
+  <%= link_to "Ver articulo", @articulo %> |
+  <%= link_to "Lista de articulos", articulos_path %>
+</div>

@@ -1,0 +1,17 @@
+<p style="color: green"><%= notice %></p>
+
+<% content_for :title, "Articulos" %>
+
+<h1>Articulos</h1>
+
+<div id="articulos">
+  <% @articulos.each do |articulo| %>
+    <%= render articulo %>
+    <p>
+      <%= link_to "Ver este articulo", articulo %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "Nuevo articulo", new_articulo_path, class: "new-resource-link" %> |
+<%= link_to "Ir a categoria", categoria_path, class: "extra-links" %>

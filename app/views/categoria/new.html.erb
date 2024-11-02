@@ -1,0 +1,11 @@
+<% content_for :title, "New categorium" %>
+
+<h1>Nueva categoria</h1>
+
+<%= render "form", categorium: @categorium %>
+
+<br>
+
+<div>
+  <%= link_to "Regresar a categoria", categoria_path %>
+</div>
